@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currículo com HTML</title>
+
+    <style>
+        body {
+            border: 2px dashed rgb(0, 21, 255);
+            padding: 40px;
+            background-color: rgba(145, 145, 145, 0.482);
+            margin: 50px;
+            text-align: center;
+        
+
+        }
+
+
+        img {
+            width: 150px;
+            height: 150px;
+            border-radius: 70%;
+            text-align: center;
+        }
+        img:hover{
+            width: 200px;
+            height: 200px;
+            
+
+        }
+
+        .topico {
+            color: navy;
+            font-size: larger;
+            margin-top: 50px;
+            list-style: none
+            ;
+        }
+        .topico:hover {
+           background-color: whitesmoke;
+           border-radius: 20px;
+        }
+
+        .dados {
+
+            font-size: medium;
+            color: rgb(0, 0, 0);
+            margin-top: 25px;
+            text-align: center justify;
+        }
+
+        .campo {
+            font-weight: bolder;
+        }
+
+        .campo::after {
+            content: " : ";
+        }
+
+
+        .valor {
+            font-style: italic;
+        }
+        #nome{
+            color: rgb(0, 0, 0);
+            vertical-align: 70px;
+            height: 40px;
+            margin-left: 40px;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1><img src="https://lh3.googleusercontent.com/lUnmR-QTisPaVoIcBS5jhTDhix6UFAsRFTOE4ToRdkPdh7XMByN4FMsvWG2pGezqenSjNt7RXYrfuH78w6lJrT5F5eHQChik20VavgsLxhOiGOR_ac14wgH25jtYBrj8pDA23D61-jjmkyraKU3kBv-Vac998EVrjqNnxSISsq21So3XIO9s2yl_iy8BkEE8sxKqtSSIlxMeNhHc2Kq2ojxZIgU8EsgpM6KVFV-JBrdHkZejTLh8IlkM9z7RMsfUpWgqCKxFu9EJSo3wkWkvtuRyRgrPdgGwOq8hkob_K_P0XFSoVYYGgYCK2BUWF3t5t3lOeER3bAdTtBGSvEF_UZw0shEa4LE4RmXJ2CreFpr2Jrwwd0Q5iLPTwNg1N1c4CWWxAKMS3ZgNWt9fAKFDE9QeWRKhO2JSI2sojsnMRHEPPmd9GXSkw2mzZZhEWu85JCYYJ664WVceSvF20IuCU3mVErS3aPCOe1lscoB7FsPSHcUcD_4VO8dESfZO_fCZbvUK13lF3hiR58pyS4VCL-FAVtAxTFgdxNsHLTlQUyyXPC10jKzP4IOw49FdBXc71eL9O1a7vNu5sZDNNXHOoT4lG8ai_-OqkKxZO2F9Vfz0E0JX4UWzRxDf62PMncPIB9Y1ccqNsZ_Omn2ffH5ZjtfF_aNM2AQzfHHQCU08RiO08yWriTR9QCj-0Gmt1qE2GVmyLTzejBZyyKRh773azljYCvlFL-JEnfMQaU5ZsZyG0c3MQl8_M6X7a8CdOh8fPjj3cbOGoghnl9oJBxORBFYzLIw17GLQ0e4_IqT8Rqzx-D_RCOZKXpoG5eviBzacP52X-fG13eYmDL1XjRaMMYQy75aYpilJfdWdd_KetLCuLWIJAQzky6srlJwl3m1S_IPrXq30A6hiRzSYYoa-g_XFlLj5-FCm7nQcTnZ9pse8=w876-h657-no?authuser=0"
+                alt=""><span id="nome">Afonso Henrique Flesch</span></h1>
+    </header>
+
+    <main>
+        <ul>
+            <li class="topico"> Informações pessoais
+                <ul class="dados">
+                    <section><span class="campo">Endereço</span><span class="valor">Rua 15 de novembro, 678 Apt 501 -
+                            Blumenau/SC</span></section>
+                    <section><span class="campo">Telefone</span><span class="valor">5547991585511</span><br></section>
+                    <section><span class="campo">Email</span><span class="valor">a.flesch@live.com</span><br></section>
+                </ul>
+                <hr>
+            </li>
+            <li class="topico"> Informações acadêmicas
+                <ul class="dados">
+                    <section><span class="campo">Grau de escolaridade</span><span class="valor">FURB -
+                            Administração</span><br></section>
+                </ul>
+                <hr>
+            </li>
+            <li class="topico"> Informações profissionais
+                <ul class="dados">
+                    <section><span class="campo">Dental Flesch</span><span class="valor">Atividades
+                            administrativas</span> <a style="text-decoration: none ;"
+                            href="www.dentalflesch.com.br">Site da empresa</a><br></section>
+                    <section><span class="campo">Banco do Brasil</span><span class="valor">Estágio</span><br></section>
+                    <section><span class="campo">Hotal Plaza</span><span class="valor">Atividades
+                            administrativas</span><br></section>
+                </ul>
+                <hr>
+            </li>
+            <li class="topico">Informações adicionais
+                <ul class="dados">
+                    <section><span class="campo">Disponibilidade para viajar</span><span class="valor">A qualquer
+                            momento</span><br></section>
+                    <section><span class="campo">Disponibilidade para mudança de estado ou país</span><span
+                            class="valor">Com certeza</span><br>
+                    </section>
+                </ul>
+            </li>
+        </ul>
+        <button src="index.html">Aperte para voltar</button>
+    </main>
+</body>
+
+</html>
